@@ -5,7 +5,7 @@ import argparse
 from prettytable import PrettyTable
 parser=argparse.ArgumentParser()
 parser.format_help()
-parser.add_argument('--xmlfile','-x', help="enter pma saps with extension")
+parser.add_argument('--xmlfile','-x', help="Provide xml file")
 args = parser.parse_args()
 xmlfile=str(args.xmlfile)
 tree=ET.parse(xmlfile)
