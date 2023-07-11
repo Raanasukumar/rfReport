@@ -1,5 +1,5 @@
 # rfReport
-<p><b>Get Suite wise statistics for Robotframework</b></p>
+<p><b>Get Suite wise statistics for RobotFramework</b></p>
 USAGE:
 <p>D:\WorkingDir\logs>python createReport.py -h</p>
 </br>usage: createReport.py [-h] [--xmlfile XMLFILE]
